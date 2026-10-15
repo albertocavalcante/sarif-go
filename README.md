@@ -35,7 +35,7 @@ CI. Those policies belong to the caller. `Write` propagates IO errors. Call
 `report.Validate()` when schema validation is needed, independently of writing.
 Report identity uses each analyzer's stable rule IDs; no fingerprint is invented.
 
-Go 1.26.2 or later. Development checks:
+Go 1.25 or later. Development checks:
 
 ```sh
 go test -race ./...

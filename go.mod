@@ -1,6 +1,6 @@
 module github.com/albertocavalcante/sarif-go
 
-go 1.26.2
+go 1.25
 
 require (
 	github.com/owenrumney/go-sarif/v3 v3.3.1
